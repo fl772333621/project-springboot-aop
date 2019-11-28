@@ -1,0 +1,7 @@
+#配置日志
+logging:
+  level:
+    org.springframework.web: INFO
+    org.hibernate: ERROR
+    com.mfanw: DEBUG
+  file: log/my_springboot.log
